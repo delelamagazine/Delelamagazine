@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Artigos | Delela Magazine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #f8d31a;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #f8d31a;
+      padding-left: 1rem;
+    }
+
+    .article {
+      background: white;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .article img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .article-content {
+      padding: 1.2rem;
+    }
+
+    .article-content h3 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      color: #222;
+    }
+
+    .article-content p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .article-content a {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #f8d31a;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+
+    @media (min-width: 700px) {
+      .article {
+        flex-direction: row;
+      }
+
+      .article img {
+        width: 40%;
+        height: auto;
+      }
+
+      .article-content {
+        width: 60%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delela Magazine</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="artigos.html">Artigos</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Últimos Artigos</h2>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x600/?african,style" alt="Imagem artigo 1">
+      <div class="article-content">
+        <h3>Moda Africana Contemporânea: Muito Além das Tendências</h3>
+        <p>A moda africana vem conquistando o mundo com cores vibrantes, padrões autênticos e uma mensagem de orgulho cultural. Conheça os designers que estão a transformar o cenário fashion.</p>
+        <a href="#">Ler mais →</a>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x600/?journalism,africa" alt="Imagem artigo 2">
+      <div class="article-content">
+        <h3>Jovens Vozes Africanas: O Novo Jornalismo Independente</h3>
+        <p>Com a força das redes sociais e plataformas digitais, jovens jornalistas estão a criar narrativas poderosas sobre o seu continente, por eles mesmos. Veja como estão a mudar o jogo.</p>
+        <a href="#">Ler mais →</a>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x600/?black,woman,portrait" alt="Imagem artigo 3">
+      <div class="article-content">
+        <h3>Mulheres Negras no Centro da Transformação Cultural</h3>
+        <p>Delela destaca mulheres africanas que estão a inspirar e a liderar mudanças em arte, educação, saúde e ativismo social. As vozes femininas que estão a mover o continente.</p>
+        <a href="#">Ler mais →</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Delela Magazine. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
